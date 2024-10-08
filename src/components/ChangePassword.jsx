@@ -12,7 +12,7 @@ function ChangePassword() {
         event.preventDefault();
 
         try {
-            const response = await fetch('http://back-horoscopo.vercel.app/v1/signos/ChangePassword', {
+            const response = await fetch('https://back-horoscopo.vercel.app/v1/signos/ChangePassword', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
